@@ -1,12 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/js/main.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite App</title>
+</head>
+
+<body>
+  <div class="bg-color-main">
+    <header class="header container">
+      <a href="#">
+        <img class="header__logo" src="/icons/logo.svg" alt="logo" />
+      </a>
+      <div class="nav-wrapper">
+        <nav class="nav-links">
+          <a class="nav-links__item" href="#">Услуги</a>
+          <a class="nav-links__item" href="#">Портфолио</a>
+          <a class="nav-links__item" href="#">Этапы</a>
+          <a class="nav-links__item" href="#">Дизайнеры</a>
+        </nav>
+        <button class="btn btn--md-size nav-wrapper__btn">Заказать</button>
+      </div>
+      <img src="/icons/hamburger.svg" alt="hamburger" class="hamburger">
+    </header>
+  </div>
+
+  <section class="promo-wrapper">
+    <div class="promo promo-wrapper__content container">
+      <h1 class="promo__title">Разработка интернет-магазина с нуля за неделю</h1>
+      <div class="desc promo__desc">Дизайн интернет магазина, элементов микро UX, корзин, личного кабинета - от
+        фирменного стиля
+        до пользовательского интерфейса в сжатые сроки
+        с командой Virtual Designers
+      </div>
+      <button class="btn btn--lg-size">Заказать</button>
+    </div>
+    <img class="promo__cart-img" src="/imgs/promo/cart.png" alt="cart">
+    <img class="promo__mobile-cart-img" src="/imgs/promo/mobile-cart.png" alt="cart">
+    <img src="/imgs/promo/sphere.png" alt="sphere" class="promo-wrapper__sphere" />
+    <img src="/imgs/promo/figure.png" alt="figure" class="promo-wrapper__figure" />
+  </section>
+
+
+
+
+  <script type="module" src="/src/js/main.js"></script>
+</body>
+
 </html>
