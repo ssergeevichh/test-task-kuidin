@@ -1,0 +1,62 @@
+.container {
+  width: 100%;
+  max-width: 1175px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.desc {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+}
+
+.bg-color-main {
+  background-color: $main-color;
+}
+
+.btn {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color: $btn-bg-color;
+  border-radius: $btn-border-radius;
+  transition: $transition;
+  border: 2px solid transparent;
+
+
+  &--md-size {
+    padding: 9px 40px;
+
+    &:hover {
+      border: 2px solid #fff
+    }
+
+    &:active {
+      color: $main-color;
+      background-color: #fff;
+    }
+  }
+
+  &--lg-size {
+    padding: 22px 92px;
+
+    &:hover {
+      border: 2px solid $main-color
+    }
+
+    &:active {
+      background-color: $main-color;
+    }
+  }
+}
+
+@media(max-width: 575px) {
+  .btn {
+    &--lg-size {
+      width: 100%;
+    }
+  }
+}

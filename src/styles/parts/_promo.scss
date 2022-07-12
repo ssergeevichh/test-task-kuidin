@@ -1,0 +1,172 @@
+.promo {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  z-index: 1;
+
+  &__cart-img {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  &__mobile-cart-img {
+    display: none;
+  }
+}
+
+.promo {
+  &__title {
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 125%;
+    color: #484848;
+    max-width: 50%;
+    margin-bottom: 20px;
+  }
+
+  &__desc {
+    font-size: 16px;
+    max-width: 38%;
+    margin-bottom: 58px;
+  }
+}
+
+
+.promo-wrapper {
+  margin-top: 82px;
+  position: relative;
+  min-height: 650px;
+  display: flex;
+  align-items: center;
+
+  &__sphere {
+    position: absolute;
+    left: 13%;
+    top: 10%;
+  }
+
+  &__figure {
+    position: absolute;
+    bottom: 7%;
+  }
+}
+
+.promo-content {
+  max-width: 50%;
+}
+
+
+
+@media(max-width: 1600px) {
+  .promo {
+    &__cart-img {
+      right: -200px;
+    }
+  }
+
+  .promo-wrapper {
+    overflow: hidden;
+
+    &__figure {
+      bottom: 3%;
+    }
+  }
+}
+
+@media(max-width: 1200px) {
+  .promo {
+    &__cart-img {
+      right: -295px;
+    }
+  }
+
+  .promo-wrapper {
+    &__sphere {
+      top: 0;
+    }
+  }
+}
+
+@media(max-width: 991px) {
+  .promo {
+    &__title {
+      font-size: 25px;
+    }
+
+    &__desc {
+      font-size: 15px;
+      margin-bottom: 34px;
+    }
+
+    &__cart-img {
+      right: -420px;
+    }
+  }
+
+  .promo-wrapper {
+    &__sphere {
+      top: 5%;
+    }
+  }
+}
+
+@media(max-width: 768px) {
+  .promo {
+    &__desc {
+      max-width: 45%;
+    }
+
+    &__title {
+      max-width: 55%;
+    }
+
+    &__cart-img {
+      right: -200px;
+      width: 90%;
+      top: 19%;
+    }
+  }
+}
+
+@media(max-width: 575px) {
+  .promo {
+    &__cart-img {
+      display: none;
+    }
+
+    &__mobile-cart-img {
+      display: block;
+      position: absolute;
+      top: 0%;
+      right: 0;
+      width: 100%;
+    }
+
+    &__title {
+      max-width: 100%;
+    }
+
+    &__desc {
+      max-width: 100%;
+      font-size: 16px;
+    }
+  }
+
+  .promo-wrapper {
+    margin-top: 95px;
+
+    &__sphere {
+      display: none;
+    }
+
+    &__figure {
+      display: none;
+    }
+
+    &__content {
+      margin-top: 75%;
+    }
+  }
+}
