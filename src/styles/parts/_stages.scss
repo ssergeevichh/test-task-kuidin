@@ -16,6 +16,10 @@
     right: 10%;
     bottom: 5%;
   }
+
+  &__arrows {
+    bottom: 15%;
+  }
 }
 
 .stages-list {
@@ -62,7 +66,7 @@
   }
 
   .stages-list {
-    max-height: 635px;
+    max-height: 560px;
   }
 
   .stage-text-wrapper {
@@ -79,13 +83,29 @@
 @media(max-width: 575px) {
   .stages {
     padding: 42px 20px 150px;
+
     &__wave {
       display: none;
     }
 
     &__sphere {
-      width: 14%;
+      width: 10%;
       left: -6%;
+    }
+
+    &__arrows {
+      bottom: 10%;
+    }
+  }
+
+  .stages-list {
+    max-height: 730px;
+  }
+
+  .stage-item {
+    &__img {
+      width: 100%;
+      max-width: 250px;
     }
   }
 
