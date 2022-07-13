@@ -5,6 +5,14 @@
   padding: 0 15px;
 }
 
+.title {
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+  color: #111111;
+}
+
 .desc {
   font-weight: 400;
   font-size: 18px;
@@ -15,13 +23,17 @@
   background-color: $main-color;
 }
 
+.bg-color-skyblue {
+  background-color: $main-skyblue;
+}
+
 .btn {
   font-weight: 700;
   font-size: 15px;
   line-height: 100%;
   text-transform: uppercase;
   color: #FFFFFF;
-  background-color: $btn-bg-color;
+  background-color: $main-green;
   border-radius: $btn-border-radius;
   transition: $transition;
   border: 2px solid transparent;
@@ -53,10 +65,23 @@
   }
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
 @media(max-width: 575px) {
   .btn {
     &--lg-size {
       width: 100%;
     }
+  }
+
+  .title {
+    font-size: 23px;
   }
 }
