@@ -12,6 +12,7 @@
     "vite": "^2.9.9"
   },
   "dependencies": {
+    "@splidejs/splide": "^4.0.7",
     "accordion-js": "^3.3.0",
     "bootstrap": "^5.1.3"
   }
