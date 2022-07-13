@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800;900&display=swap');
 @import 'bootstrap/dist/css/bootstrap-reboot.css';
 @import 'accordion-js/dist/accordion.min.css';
+@import '@splidejs/splide/css';
 
 @import './base/variables';
 @import './base/reuse-parts';
@@ -13,3 +14,4 @@ body {
 @import 'parts/header';
 @import 'parts/promo';
 @import 'parts/services';
+@import 'parts/stages';
