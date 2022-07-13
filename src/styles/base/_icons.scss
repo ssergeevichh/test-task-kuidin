@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('/fonts/icomoon.eot?ndwibe');
-  src:  url('/fonts/icomoon.eot?ndwibe#iefix') format('embedded-opentype'),
-    url('/fonts/icomoon.ttf?ndwibe') format('truetype'),
-    url('/fonts/icomoon.woff?ndwibe') format('woff'),
-    url('/fonts/icomoon.svg?ndwibe#icomoon') format('svg');
+  src:  url('/fonts/icomoon.eot?qfwx9w');
+  src:  url('/fonts/icomoon.eot?qfwx9w#iefix') format('embedded-opentype'),
+    url('/fonts/icomoon.ttf?qfwx9w') format('truetype'),
+    url('/fonts/icomoon.woff?qfwx9w') format('woff'),
+    url('/fonts/icomoon.svg?qfwx9w#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,26 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-telegram-mobile:before {
+  content: "\e908";
+  color: #fff;
+}
+.icon-viber-mobile:before {
+  content: "\e909";
+  color: #fff;
+}
+.icon-whatsapp-mobile:before {
+  content: "\e90a";
+  color: #fff;
+}
+.icon-instagram-mobile:before {
+  content: "\e90b";
+  color: #fff;
+}
+.icon-facebook-mobile:before {
+  content: "\e90c";
+  color: #fff;
+}
 .icon-arrow-right:before {
   content: "\e905";
 }
