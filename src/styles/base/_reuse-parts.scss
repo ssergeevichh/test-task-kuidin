@@ -119,6 +119,11 @@ input {
       border: 1px solid rgba(214, 213, 199, 0.5);
       background: rgba(214, 213, 199, 0.5);
     }
+
+    &:hover {
+      background-color: $main-color;
+      color: #fff;
+    }
   }
 }
 
